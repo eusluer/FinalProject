@@ -19,7 +19,7 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
-        public List<Product> GetAll()
+        public List<Category> GetAll()
         {
             return _productDal.GetAll();
         }
